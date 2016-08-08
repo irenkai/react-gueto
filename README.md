@@ -56,8 +56,9 @@ var Gueto = require('react-gueto');
 
 ### Properties (Props)
 
-* ####url:##### the url to point gueto to
-  ####jsonp:#### if its a jsonp include the callback, gueto will do the rest
+  **url:** the url to point gueto to
+
+  **jsonp:** if its a jsonp include the callback, gueto will do the rest
 
 ### Notes
 
