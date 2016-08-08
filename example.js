@@ -14,7 +14,7 @@ var App = React.createClass({
 			null,
 			React.createElement(
 				Gueto,
-				{ url: "http://www.flickr.com/services/feeds/photos_public.gne?tags=soccer&format=json&jsoncallback=", jsonp: "jsonpcallback" },
+				{ url: "https://www.flickr.com/services/feeds/photos_public.gne?tags=soccer&format=json&jsoncallback=", jsonp: "jsonpcallback" },
 				function (data) {
 					return React.createElement(
 						'div',
