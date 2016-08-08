@@ -1,6 +1,6 @@
 # Gueto
 
-__COMPONENT DESCRIPTION GOES HERE__
+Gueto is a wrapper over **superagent** and **superagent-jsonp** that has the sole function of passing the returned json to it's children
 
 
 ## Demo & Examples
@@ -30,7 +30,7 @@ npm install react-gueto --save
 
 ## Usage
 
-Gueto is a wrapper over **superagent** and **superagent-jsonp** that has the sole function of passing the returned json to it's children
+Just put where you want to render the content.
 
 ```
 var Gueto = require('react-gueto');
@@ -54,10 +54,10 @@ var Gueto = require('react-gueto');
 </Gueto>
 ```
 
-### Properties
+### Properties (Props)
 
-* **url** the url to point gueto to
-  **jsonp** if its a jsonp include the callback, gueto will do the rest
+* ####url:##### the url to point gueto to
+  ####jsonp:#### if its a jsonp include the callback, gueto will do the rest
 
 ### Notes
 
@@ -71,7 +71,5 @@ var Gueto = require('react-gueto');
 To build, watch and serve the examples (which will also watch the component source), run `npm start`. If you just want to watch changes to `src` and rebuild `lib`, run `npm run watch` (this is useful if you are working with `npm link`).
 
 ## License
-
-__PUT LICENSE HERE__
 
 Copyright (c) 2016 Diego Browne [Chorrillana Estudio](http://chorrillana.cl/).
